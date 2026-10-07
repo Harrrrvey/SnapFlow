@@ -1,0 +1,38 @@
+<svg viewBox="0 0 680 240" width="680" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>SnapFlow 工作流</title>
+  <desc>截图后文件进入图库文件夹，SnapFlow 监听到后同时写入剪贴板并加入菜单栏历史，超量旧图自动进废纸篓。</desc>
+  <rect x="0" y="0" width="680" height="240" fill="#FBF9F6"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="40" y="46" width="160" height="58" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="120" y="68" font-size="14" font-weight="500" fill="#04342C" text-anchor="middle">⌘⇧4 截图</text>
+  <text x="120" y="88" font-size="12" fill="#0F6E56" text-anchor="middle">系统原生选区</text>
+
+  <rect x="260" y="46" width="160" height="58" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="340" y="68" font-size="14" font-weight="500" fill="#04342C" text-anchor="middle">落入截图库</text>
+  <text x="340" y="88" font-size="12" fill="#0F6E56" text-anchor="middle">Pictures/SnapFlow</text>
+
+  <rect x="480" y="46" width="160" height="58" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="560" y="68" font-size="14" font-weight="500" fill="#04342C" text-anchor="middle">SnapFlow 监听</text>
+  <text x="560" y="88" font-size="12" fill="#0F6E56" text-anchor="middle">文件夹事件触发</text>
+
+  <path d="M200 75 H252" fill="none" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M420 75 H472" fill="none" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <path d="M560 104 V132" fill="none" stroke="#854F0B" stroke-width="1.5"/>
+  <path d="M285 132 H560" fill="none" stroke="#854F0B" stroke-width="1.5"/>
+  <path d="M285 132 V162" fill="none" stroke="#854F0B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M515 132 V162" fill="none" stroke="#854F0B" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="180" y="166" width="210" height="58" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="285" y="188" font-size="14" font-weight="500" fill="#412402" text-anchor="middle">自动写入剪贴板</text>
+  <text x="285" y="208" font-size="12" fill="#854F0B" text-anchor="middle">截完直接 ⌘V</text>
+
+  <rect x="410" y="166" width="210" height="58" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="515" y="188" font-size="14" font-weight="500" fill="#412402" text-anchor="middle">进入菜单栏历史</text>
+  <text x="515" y="208" font-size="12" fill="#854F0B" text-anchor="middle">点一下重新复制</text>
+</svg>

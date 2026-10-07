@@ -1,0 +1,21 @@
+# 构建产物
+build/
+*.app
+*.o
+*.dSYM
+*.dSYM.zip
+
+# macOS
+.DS_Store
+._*
+
+# Xcode / SwiftPM（万一以后用上）
+.build/
+.swiftpm/
+*.xcuserdatad
+xcuserdata/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
